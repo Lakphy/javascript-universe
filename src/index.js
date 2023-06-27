@@ -1,5 +1,7 @@
+// 随手测使用的主文件
+
 import request from "request";
-import customPromise from "./customPromise/index.js";
+import customPromise from "./customPromise/promise.cls.js";
 
 var promise1 = new customPromise((resolve) => {
   request("https://www.baidu.com", function (error, response) {
